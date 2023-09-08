@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Registro de Manga</title>
+  <link rel="stylesheet" type="text/css" href="/estilos/mangas.css">
+</head>
+<body>
+  <h1>Formulario de Registro de Manga</h1>
+
+  <div class="container">
+    <form id="registroForm">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div class="form-group">
+        <label for="tipo">Tipo:</label>
+        <select id="tipo" name="tipo" required>
+          <option value="Manga">Manga</option>
+          <option value="Manhwa">Manhwa</option>
+          <option value="Novela">Novela</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+          <option value="Finalizado">Finalizado</option>
+          <option value="En proceso">En proceso</option>
+          <option value="En pausa">En pausa</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="webcomic">Webcomic:</label>
+        <input type="checkbox" id="webcomic" name="webcomic">
+      </div>
+
+      <div class="form-group">
+        <label for="yonkoma">Yonkoma:</label>
+        <input type="checkbox" id="yonkoma" name="yonkoma">
+      </div>
+
+      <div class="form-group">
+        <label>Géneros:</label>
+        <div class="genero-checkboxes">
+
+          <div class="genero-checkboxes-agrup">
+            <input type="checkbox" id="generoMagia" value="Magia">
+            <label for="generoMagia">Magia</label>
+          </div>
+
+          <div class="genero-checkboxes-agrup">
+           <input type="checkbox" id="generoAventura" value="Aventura">
+           <label for="generoAventura">Aventura</label>
+          </div>
+
+          <div class="genero-checkboxes-agrup">
+           <input type="checkbox" id="generoAccion" value="Acción">
+           <label for="generoAccion">Acción</label>
+          </div>
+
+         <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoComedia" value="Comedia">
+          <label for="generoComedia">Comedia</label>
+         </div>
+
+         <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoDrama" value="Drama">
+          <label for="generoDrama">Drama</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoRecuentos" value="Recuentos de la vida">
+          <label for="generoRecuentos">Recuentos de la vida</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoEcchi" value="Ecchi">
+          <label for="generoEcchi">Ecchi</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoFantasia" value="Fantasia">
+          <label for="generoFantasia">Fantasía</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoSobrenatural" value="Sobrenatural">
+          <label for="generoSobrenatural">Sobrenatural</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoHorror" value="Horror">
+          <label for="generoHorror">Horror</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoMisterio" value="Misterio">
+          <label for="generoMisterio">Misterio</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoRomance" value="Romance">
+          <label for="generoRomance">Romance</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoDeporte" value="Deporte">
+          <label for="generoDeporte">Deporte</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoHarem" value="Harem">
+          <label for="generoHarem">Harem</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoMecha" value="Mecha">
+          <label for="generoMecha">Mecha</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoSupervivencia" value="Supervivencia">
+          <label for="generoSupervivencia">Supervivencia</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoReencarnacion" value="Reencarnación">
+          <label for="generoReencarnacion">Reencarnación</label>
+        </div>
+
+        <div class="genero-checkboxes-agrup">
+          <input type="checkbox" id="generoArtesMarciales" value="Artes marciales">
+          <label for="generoArtesMarciales">Artes marciales</label>
+        </div>
+        
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="titulos">Títulos:</label>
+        <input type="text" id="titulos" name="titulos" required>
+      </div>
+
+      <div class="form-group">
+        <label for="ultimoCapitulo">Último Capítulo:</label>
+        <input type="text" id="ultimoCapitulo" name="ultimoCapitulo" required>
+      </div>
+
+      <div class="form-group">
+        <label for="link">Link:</label>
+        <input type="text" id="link" name="link" required>
+      </div>
+
+      <button type="submit">Guardar</button>
+    </form>
+  </div>
+
+  <script src="/clases/mangas.js"></script>
+</body>
+</html>

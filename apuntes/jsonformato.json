@@ -1,0 +1,11 @@
+{
+    "nombre": "nombre del manga",
+    "tipo": "tipo seleccionado",
+    "estado": "estado seleccionado",
+    "webcomic":false,
+    "yonkoma": false,
+    "generos": ["genero1", "genero2", "..."],
+    "titulos": "títulos del manga",
+    "ultimoCapitulo": "último capítulo",
+    "link": "enlace del manga"
+  }

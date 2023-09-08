@@ -1,0 +1,10 @@
+Un manga tendra
+    Nombre 
+    Tipo
+    Estado
+    webcominc: yes /NO
+    Yonkoma: yes /NO
+    Géneros
+    Titulos
+    ultimoCaputilo visto
+    Links []
